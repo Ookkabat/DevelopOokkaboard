@@ -1,7 +1,6 @@
 <header>
     <div class="container">
-        <h1>Develop Ookkabot</h1>
-        <h2>เรียนรู้วิธีสร้างแอพอุกกาบอต แบบง่ายๆ ด้วย Meteor</h2>
-
+        <h1>{% if page.title %}{{ page.title }}{% else %}{{ "Page Title" }}{% endif %}</h1>
+        <h2>{% if page.excerpt %}{{ page.excerpt | prepend: "ในบทนี้คุณจะได้ " | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ "..." }}{% endif %}</h2>
     </div>
 </header>
