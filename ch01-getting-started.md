@@ -3,11 +3,19 @@ title: Getting Started
 layout: default
 ---
 
-#Getting Started with Ookkabot
+## อะไร คือ อุกกาบอต
+
+**อุกกาบอต** หรือเว็บบอร์ดแนวใหม่เน้นความเรียบง่าย
 
 ////
 
 ////
 
-////
+## ทำไมต้องใช้ Meteor
+
+///
+
+///
+
+///
 
