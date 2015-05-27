@@ -9,3 +9,6 @@ twitter_username: ookkabat
 github_username:  ookkabat
 
 timezone: Asia/Bangkok
+
+exclude: [Gemfile, Gemfile.*, bs-config.js, params.json]
+
