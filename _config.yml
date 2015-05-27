@@ -1,9 +1,9 @@
 # Site settings
-title: Develop Ookkabot
+title: Develop Ookkaboard
 email: ookkabat@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Learning Meteor by Developing Ookkabot (inspired by Discover Meteor)
-baseurl: "/DevelopOokkabot" # the subpath of your site, e.g. /blog/
+  Learning Meteor by Developing Ookkaboard (inspired by Discover Meteor)
+baseurl: "/DevelopOokkaboard" # the subpath of your site, e.g. /blog/
 url: "http://ookkabat.github.io" # the base hostname & protocol for your site
 twitter_username: ookkabat
 github_username:  ookkabat
