@@ -5,9 +5,10 @@
 */
 
 header {
+  @extend .content-box;
   background: rgba(0, 0, 0, 0.1);
   //width: 100%;
-  max-width: 600px;
+  //max-width: 600px;
   border-bottom: 1px dashed $lime-color;
   padding: 20px 0;
   //margin: 0 0 40px 0;
@@ -41,9 +42,10 @@ header {
 }
 
 footer {
+  @extend .content-box;
   background: rgba(0, 0, 0, 0.1);
   //width: 100%;
-  max-width: 600px;
+  //max-width: 600px;
   border-top: 1px dashed $lime-color;
   padding: 20px 0;
   //margin: 0 0 40px 0;
@@ -56,6 +58,9 @@ footer {
       width: 49%;
       &.push-right {
         text-align: right;
+      }
+      a {
+        padding: 0 5px;
       }
     }
   }
