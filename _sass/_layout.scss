@@ -32,6 +32,13 @@ header {
       font-size: 24px;
       font-family: $latin-font-family;
     }
+
+    @include media-query($on-palm) {
+      margin-left: 0px;
+      &:before {
+        content: "";
+      }
+    }
   }
 
   h2 {
