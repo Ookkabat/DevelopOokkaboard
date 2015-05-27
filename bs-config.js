@@ -28,6 +28,14 @@ module.exports = {
     server: {
         baseDir: '_site'
     },
+    rewriteRules: [
+        {
+            match: /DevelopOokkaboard/g,
+            fn: function (match) {
+                return '.';
+            }
+        }
+    ],
 
     //"files": false,
     "watchOptions": {},
@@ -44,12 +52,12 @@ module.exports = {
             "toggles": true
         }
     },
-    "logLevel": "info",
+    "logLevel": "debug",
     "logPrefix": "BS",
     "logConnections": false,
     "logFileChanges": true,
     "logSnippet": true,
-    "rewriteRules": false,
+    //"rewriteRules": false,
     "open": "local",
     "browser": "default",
     "xip": false,
