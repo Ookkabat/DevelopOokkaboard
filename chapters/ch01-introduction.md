@@ -1,7 +1,9 @@
 ---
 layout: default
+permalink: chapters/introduction.html
 title: บทนำ
 excerpt: ทำความเข้าใจเกี่ยวกับ อุกกาบอร์ด และ Meteor
+next: gettingstarted.html
 ---
 
 ## อะไร คือ อุกกาบอร์ด

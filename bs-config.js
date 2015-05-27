@@ -69,7 +69,7 @@ module.exports = {
     "reloadDelay": 0,
     "reloadDebounce": 0,
     "plugins": [],
-    "injectChanges": true,
+    "injectChanges": false, //true,
     "startPath": null,
     "minify": true,
     "host": null,
