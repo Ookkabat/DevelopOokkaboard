@@ -26,8 +26,17 @@ module.exports = {
         '_site/**/*.html'
     ],
     server: {
-        baseDir: '_site'
+        baseDir: '_site',
+        "middleware": function (req, res, next) {
+
+            if (req.url.indexOf("chapters")>0 && req.url.indexOf(".html")<0) {
+                req.url += ".html";
+                console.log("adding .html from middleware -> "+req.url);
+            }
+            next();
+        }
     },
+
     rewriteRules: [
         {
             match: /DevelopOokkaboard/g,
@@ -42,7 +51,7 @@ module.exports = {
     //"server": false,
     "proxy": false,
     "port": 3000,
-    "middleware": false,
+    //"middleware": false,
     "ghostMode": {
         "clicks": true,
         "scroll": true,
